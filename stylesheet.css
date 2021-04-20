@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right, purple, magenta)
+}
+
+.ximg{
+    width: 200px;
+    height: 200px;
+}
+.clearButton{
+    font-size: 50px;
+    background-color: red;
+    border: 2px white solid;
+    border-radius: 30px;
+}
+.oimg{
+      width: 200px;
+      height: 200px;
+}
+
+#inputVal{
+    position: relative;
+    left: 1020px;
+    top: 1080px;
+}
+#OutputGrid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    position: relative;
+    left: 960px;
+    width: 600px;
+}
+#submitButton{
+    font-size: 50px;
+    background-color: aqua;
+    border: 5px solid aliceblue;
+    border-radius: 35px;
+}
+#inputForm{
+    position: relative;
+    left: 1000px;
+    top: 1000px;
+    width: 1000px;
+}

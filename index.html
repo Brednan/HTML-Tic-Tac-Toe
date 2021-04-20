@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./functions.js"></script>
+<body>
+    <h1 style="position: relative; left: 1050px; top: 1000px; width:600px">Insert 9 letters below, only lowercase</h1>
+    <form id="inputForm" onsubmit="return false">
+        <input id="inputText" style="font-size: 50px;" pattern="[a-z]{9}" maxlength="9">
+        <input id="submitButton" onclick="createElements(document.getElementById('inputText').value)" type="submit">
+        <button class="clearButton" id="clear" onclick="clearGrid()">Clear</button>
+    </form>
+    <div id="OutputGrid">
+    </div>
+</body>
+
+</html>
